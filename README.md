@@ -6,6 +6,7 @@ This uses [modularscale-js] to create a ramp of font-sizes that adds fluid typog
 
 For more information on how it is possible, [check out the article by Mike Riethmuller on responsive typography](https://www.madebymike.com.au/writing/precise-control-responsive-typography/#heading-precise-control-with-calc()), where we use `calc()` to automatically resize the font-size depending on the viewport with.
 
+**NOTE: This requires PostCSS 8+.**
 
 [modularscale-js]: https://github.com/modularscale/modularscale-js
 [PostCSS]: https://github.com/postcss/postcss
