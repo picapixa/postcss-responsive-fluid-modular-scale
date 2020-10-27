@@ -1,6 +1,6 @@
 {
   "name": "postcss-responsive-fluid-modular-scale",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "PostCSS plugin that applies responsive, fluid font-sizes that uses the modular scale",
   "keywords": [
     "postcss",
