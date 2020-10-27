@@ -9,6 +9,7 @@
     "modular-scale"
   ],
   "scripts": {
+    "preversion": "npm run test",
     "test": "jest-ci --coverage && eslint-ci ."
   },
   "author": "Raffy Alcoriza <opensource@raffyal.co>",
