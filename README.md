@@ -4,7 +4,7 @@
 
 This uses [modularscale-js] to create a ramp of font-sizes that adds fluid typography between breakpoints, ensuring responsiveness. 
 
-For more information on how it is possible, [check out the article by Mike Riethmuller on responsive typography](https://www.madebymike.com.au/writing/precise-control-responsive-typography/#heading-precise-control-with-calc()), where we use `calc()` to automatically resize the font-size depending on the viewport with.
+For more information on how it is possible, [check out the article by Mike Riethmuller on responsive typography](https://www.madebymike.com.au/writing/precise-control-responsive-typography/#heading-precise-control-with-calc()), where we use `calc()` to automatically resize the font-size depending on the viewport width.
 
 **NOTE: This requires PostCSS 8+.**
 
@@ -49,7 +49,7 @@ Output:
 npm install --save-dev postcss postcss-responsive-fluid-modular-scale
 ```
 
-**Step 2:** Check you project for existed PostCSS config: `postcss.config.js`
+**Step 2:** Check your project for existed PostCSS config: `postcss.config.js`
 in the project root, `"postcss"` section in `package.json`
 or `postcss` in bundle config.
 
